@@ -1,0 +1,6 @@
+numpy==1.24.4
+pandas==2.1.1
+datasets==2.16.1
+transformers==4.36.2
+emoji==2.9.0
+nltk==3.8.1
