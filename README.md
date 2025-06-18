@@ -1,7 +1,7 @@
 # SciTweets Classifier - Classification of Science-Relatedness of Tweets
 
 ## Description
-This repository contains a script to classify the science-relatedness of Tweets. The underlying classifier was traine das part of *"SciTweets - A Dataset and Annotation Framework for Detecting Scientific Online Discourse"* published at **CIKM2022**. The classifier distinguishes three different forms of science-relatedness for Tweets:
+This repository contains a script to classify the science-relatedness of Tweets. The underlying classifier was trained as part of *"SciTweets - A Dataset and Annotation Framework for Detecting Scientific Online Discourse"* published at **CIKM2022**. The classifier distinguishes three different forms of science-relatedness for Tweets:
 ![Image Alt Text](categories_science_relatedness.png)
 
 The three categories of science-relatedness that the classifier predicts (categories 1.1, 1.2, and 1.3) are defined as:
@@ -29,7 +29,7 @@ either of the 3 previous categories.
 Science-Relatedness, Scientific Online Discourse, Tweets, Claims
 
 
-## Usecase
+## Use Cases
 1. A social scientist wants to analyze scientific online discourse and needs to extract such data from a list of existing tweet texts.
 2. A social scientist wants to identify scientific claims in Tweets. 
 3. A social scientists wants to identify scientific references in Tweets.
@@ -39,7 +39,7 @@ Science-Relatedness, Scientific Online Discourse, Tweets, Claims
 This repository contains the following files:
 
 ├── **classify.py** the python script for classifying the science-relatedness of Tweets <br />
-├── **example_tweets.tsv** an examplary dataset in tsv format (tab separated) 
+├── **example_tweets.tsv** an exemplary dataset in tsv format (tab separated) 
 
 
 
