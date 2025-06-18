@@ -52,15 +52,11 @@ To run the classifier the following software is required.
 First, the script requires a Python environment with a version >= 3.9
 1. Python >= 3.9
 
-Second, within the Python environment, the following modules and versions are required:
-1. numpy 1.24.4
-2. pandas 2.1.1
-3. datasets 2.16.1
-4. transformers 4.36.2
-5. emoji 2.9.0
-6. nltk 3.8.1
+Second, within the Python environment, install the modules from **requirements.txt** with
 
-The script might also run properly with different versions of the modules. 
+    python -m pip install -r requirements.txt
+
+Note, the script might also run properly with different versions of the modules. 
 
 ### Hardware Requirements (Optional)
 The classifier does not require specific hardware. When running the classification script **classify.py** for the first time, a network connection is required to download the underlying classifier. A GPU is not required but can speed up the classification, especially for larger collections of input Tweets.
